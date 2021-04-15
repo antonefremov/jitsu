@@ -104,6 +104,7 @@ jobs:
       PG_TEST_PORT: 5432
       CH_TEST_PORT: 8123
       REDIS_TEST_PORT: 6379
+      MS_TEST_PORT: 3306
       TEST_RESULTS: /tmp/test-results
       GO111MODULE: "on"
     steps:
